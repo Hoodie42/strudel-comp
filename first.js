@@ -1,3 +1,9 @@
+/*
+  @title First
+  @by Hoodie
+  @version 1
+*/
+
 stack(
   s("<[hh hh] cp [- hh cp hh] cp>*4")
     .lpf("<500 700 900 1100 1300 1500 1500 1500 1500 1500>/4")
