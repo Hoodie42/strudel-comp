@@ -1,7 +1,7 @@
 /*
   @title Super Mario Bros
   @by Hoodie
-  @version 2
+  @version 3
 */
 
 const music = `<
@@ -49,4 +49,8 @@ stack(
   n(music)
     .s("gm_xylophone")
     .scale("c:major"),
-).cpm(30)
+  n(music)
+    .s("supersaw")
+    .scale("c:major")
+    .lpf(300)
+).cpm(32)
